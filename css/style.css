@@ -101,10 +101,6 @@
         margin-left: 4rem;
             
     }
-    .container__img{
-        
-
-    }
     .container__img-li img{
         height: 4rem;
         width: 15rem;
@@ -115,9 +111,6 @@
     }
     .container__footer {
         background-color:aquamarine;
-        height: 5rem; ;
+        height: 5rem;
     }
-    
-    
-
 
