@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    body{
+    font-family: 'Roboto','sans-serifgit';
+    background: #D5D8DC;
+    }
+    li{
+        list-style: none;
+    }
+    header{
+        background: #1986D6;
+        height: 3rem;
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        }
+    .menu{
+    padding: 10px;
+    margin: auto;
+    display:flex;
+    align-content: space-between;  
+    }
+   
+/*--------------------------------------Header--------------------------------*/
+    .menu_div{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 82%;
+    margin-right: 20%;
+    }
+    .menu_input{
+        padding: 5px 6px 5px 30px; 
+        outline: none;
+        font-size: 16px;
+        border-radius: 15px;
+        color: #444;
+        border: 3px solid #1986D6   ;
+        width: 70px;
+        transition: all .5s;
+        display: flex;
+        align-content: space-between;
+        background: #fff url("search-icon.ico") no-repeat 9px center;
+        ;
+    }  
+    .menu_input:hover{
+        width: 150px;
+        background: #fff;
+        border-color: grey;
+        box-shadow:0 0 2px #1986D6;
+        
+    } 
+
+    .menu_item{
+        display: flex;
+        flex-flow: row ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        position:absolute;
+        margin-left: 40%;
+        margin-top: 5px;
+        top:6px;
+    }
+
+    .menu_item a{
+        margin-left: 50px;
+        padding-top: 10px;
+    }
+    /*-------------------------------Container...........................*/
+    .container{
+        max-width: 1000px;
+        width: 90%;
+        margin: 20px auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(4,1 fr);
+        grid-template-rows: repeat(5,auto);
+    }
+    .container__sidebar{
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column: span 2;
+        background-color: #1986D6;
+        height: 90%;
+    }
+    .container__header{
+        margin-left: 8rem;
+        padding-top: 1rem;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+    .container__img-li{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    
+        padding-top: 1rem;
+        margin-left: 4rem;
+            
+    }
+    .container__img{
+        
+
+    }
+    .container__img-li img{
+        height: 4rem;
+        width: 15rem;
+        margin-left: 1rem; 
+        border-radius: 8%;
+        
+        
+    }
+    .container__footer {
+        background-color:aquamarine;
+        height: 5rem; ;
+    }
+    
+    
+
+
